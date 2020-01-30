@@ -22,4 +22,7 @@
         excludesfile = ~/.gitignore_global
         editor = vim
 [rebase]
-	autosquash = true
+	autoSquash = true
+	autoStash = true
+[pull]
+	rebase = true
