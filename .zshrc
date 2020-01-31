@@ -34,7 +34,6 @@ bindkey '^[[B' history-substring-search-down
 alias dpsa='docker ps -a'
 alias youtube-mp3='youtube-dl -x --audio-format mp3'
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-alias ngrok="/Applications/ngrok"
 alias python="python3"
 alias pip="pip3"
 alias code="code-insiders"
