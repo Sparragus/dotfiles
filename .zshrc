@@ -37,6 +37,7 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias python="python3"
 alias pip="pip3"
 alias code="code-insiders"
+alias be="bundle exec"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
