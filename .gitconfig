@@ -16,6 +16,7 @@
     rc = rebase --continue
     ra = rebase --abort
     fix = !git diff --name-only | uniq | xargs code-insiders
+    fixup = commit --fixup
     l = log --oneline 
     pushf = push --force-with-lease
 [core]
