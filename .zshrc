@@ -45,6 +45,7 @@ alias f="fzf"
 alias brew-dump="brew bundle dump --force"
 alias find="fd"
 alias du="dust"
+alias cat="bat"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
