@@ -15,6 +15,7 @@
     ri = rebase -i
     rc = rebase --continue
     ra = rebase --abort
+    rs = rebase --skip
     fix = !git diff --name-only | uniq | xargs code-insiders
     fixup = commit --fixup
     l = log --oneline 
