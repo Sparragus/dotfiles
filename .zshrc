@@ -42,6 +42,7 @@ alias ls="exa"
 alias l="exa -lh --icons"
 alias la="exa -lhaa --icons"
 alias f="fzf"
+alias brew-dump="brew bundle dump --force"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
