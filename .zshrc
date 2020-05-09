@@ -44,6 +44,7 @@ alias la="exa -lhaa --icons"
 alias f="fzf"
 alias brew-dump="brew bundle dump --force"
 alias find="fd"
+alias du="dust"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
