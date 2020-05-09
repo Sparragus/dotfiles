@@ -38,6 +38,9 @@ alias python="python3"
 alias pip="pip3"
 alias code="code-insiders"
 alias be="bundle exec"
+alias ls="exa"
+alias l="exa -lh --icons"
+alias la="exa -lhaa --icons"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
