@@ -41,6 +41,7 @@ alias be="bundle exec"
 alias ls="exa"
 alias l="exa -lh --icons"
 alias la="exa -lhaa --icons"
+alias f="fzf"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
