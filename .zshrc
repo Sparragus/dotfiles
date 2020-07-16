@@ -47,6 +47,7 @@ alias find="fd"
 alias du="dust"
 alias cat="bat"
 alias time="hyperfine"
+alias dev="npm run dev"
 
 export EDITOR="code-insiders"
 export N_PREFIX=$HOME/.n
