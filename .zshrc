@@ -7,9 +7,6 @@ antigen use oh-my-zsh
 
 antigen theme https://github.com/wesbos/Cobalt2-iterm cobalt2
 
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-history-substring-search ./zsh-history-substring-search.zsh
-antigen bundle tarruda/zsh-autosuggestions
 antigen bundle brew
 antigen bundle docker
 antigen bundle heroku
@@ -17,12 +14,17 @@ antigen bundle git
 antigen bundle node
 antigen bundle npm
 antigen bundle z
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
 
 antigen apply
 
 ################################################################################
 # Configure some bundles
 ################################################################################
+# zsh-users/zsh-autosuggestions
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # zsh-history-substring-search: Bind UP and DOWN arrows to history search
 bindkey '^[[A' history-substring-search-up
